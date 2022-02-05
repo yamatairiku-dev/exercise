@@ -23,4 +23,4 @@ https.get(target, res => {
 
   // endイベントにコールバック関数を設定
   res.on('end', () => console.log(`\nレスポンスデータは${counter}分割`));
-}).end();
+});
