@@ -8,10 +8,9 @@ module.exports.culc = {
 };
 
 module.exports.fact = a => {
-  const counter = a;
   let b = 1;
-  for(let i=0; i<counter; i++) {
-    b = b*a--
+  for(let i=1; i<=a; i++) {
+    b *= i
   };
   return b;
 };
