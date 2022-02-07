@@ -3,6 +3,7 @@
 const https = require('https');
 
 const target = 'https://www.rikuden.co.jp/nw/';
+// const target = 'https://www.jma.go.jp/bosai/forecast/data/overview_forecast/130000.json';
 
 https.get(target, res => {
   // 変数を宣言
